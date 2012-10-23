@@ -79,6 +79,10 @@ $('.foo').backstretch("pause");
 
 // Advance to the next slide
 $('.foo').backstretch("next");
+
+// Add images to the slideshow (good if you don't want to let Backstretch load everything from the start, which slows things)
+$('.foo').backstretch("addImage", url);
+
 ```
 
 | Method | Description |
